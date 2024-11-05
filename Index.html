@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transcript Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meeting Transcript Viewer</h1>
+      <input type="text" id="searchInput" placeholder="Search for a term..." />
+      <div id="transcript" class="transcript">
+        <!-- Sample transcript text -->
+        <p>
+          Meeting Date:November 5, 2024<br />
+          Participants:Niluxsan, Kamal<br />
+          <strong>Niluxsan:</strong> Good morning, Kamal! Thanks for joining me
+          today to discuss our backend development tasks.<br />
+          <strong>Kamal:</strong> Good morning, Niluxsan! I’m excited to dive
+          into this. Where should we start?<br />
+          <strong>Niluxsan:</strong> Let’s begin with the database setup. Have
+          you decided on the schema for the user profiles?<br />
+          <strong>Kamal:</strong> Yes, I’ve outlined the key fields: name,
+          email, password, and role. I suggest we also add timestamps for
+          creation and updates.<br />
+          <strong>Niluxsan:</strong> That sounds great. We should ensure
+          password hashing for security. Are you planning to use bcrypt for
+          that?<br />
+          <strong>Kamal:</strong> Absolutely! I think it’s a reliable choice.
+          Should we also implement JWT for user authentication?<br />
+          <strong>Niluxsan:</strong> Yes, JWT would be perfect for handling
+          sessions securely. We can set it up to expire after a specific time to
+          enhance security.<br />
+          <strong>Kamal:</strong> Good point! What about our API routes? Do we
+          have a clear structure in mind?<br />
+          <strong>Niluxsan:</strong> I propose we start with the basic CRUD
+          operations for users. We can expand as needed.<br />
+          <strong>Kamal:</strong> Sounds like a solid plan. Let’s make sure to
+          document each route for clarity.<br />
+          <strong>Niluxsan:</strong> Definitely! I’ll draft the documentation
+          while you work on the schema. When do you think we can have a
+          prototype ready?<br />
+          <strong>Kamal:</strong> If we can both focus on our tasks, I think we
+          could have a basic prototype in a week.<br />
+          <strong>Niluxsan:</strong> Perfect! Let’s aim for that. Thanks for
+          your input, Kamal!<br />
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
